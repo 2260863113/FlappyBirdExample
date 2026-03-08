@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新像素飞鸟</title>
+    <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
+    <script src="./lib/phaser.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            display: flex; justify-content: center; align-items: center; 
+            min-height: 100vh; background-color: #333; font-family: Arial, sans-serif; 
+        }
+        #game-container { 
+            border: 4px solid #4CAF50; border-radius: 10px; 
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container"></div>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <script src = "./supabaseClient.js"> </script>
+    <script type="module" src="./main.js"></script>
+    
+</body>
+</html>
